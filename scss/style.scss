@@ -1,6 +1,13 @@
+//VARIABLES
+//antes era una declaracion y una definicion:root{--nombreVariable:valor;}
+//$declaracionVariable:valor;
+$black:black;
+$white:white;
+$f-size-p-desktop:20px;
+$f-size-p-mobile:18px;
 //NESTING
 header{
-    background-color: lightgray;
+    background-color:$white;
     nav{
         padding: 20px;
         margin: 10px;
@@ -11,17 +18,17 @@ header{
                 a{
                     text-decoration: none;
                     font-size: 20px;
-                    color: orange;
+                    color: $black;
                     transition: 1s all;
-                    font: {
-                        size: 20px;
-                        family:tahoma;
-                        weight:normal;
-                    }
+                    //font: {
+                    //size: 20px;
+                    // family:tahoma;
+                    //   weight:normal;
+                    // }
                     &:hover{
-                        background-color: aqua;
+                        background-color:$black;
                         border-radius: 20px;
-                        color: black;
+                        color: $white;
                     }
                 }
             }
