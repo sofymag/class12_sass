@@ -1,0 +1,38 @@
+//bucle
+
+@for $margin from 1 through 5{
+    .m-#{$margin}{
+        margin-top:10px * $margin;
+    }
+}
+
+
+@for $margin from 1 through 5{
+    .m-#{$margin}{
+        margin-top:10px * $margin;
+    }
+}
+
+@for $margin from 1 through 5{
+    .mb-#{$margin}{
+        margin-bottom:10px * $margin;
+    }
+}
+@for $padding from 1 through 5{
+    .p-#{$padding}{
+        padding:10px * $padding;
+    }
+}
+
+
+@for $padding from 1 through 5{
+    .pt-#{$padding}{
+        padding-top:10px * $padding;
+    }
+}
+
+@for $padding from 1 through 5{
+    .pb-#{$padding}{
+        padding-bottom:10px * $padding;
+    }
+}
